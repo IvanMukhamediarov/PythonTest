@@ -1,5 +1,7 @@
 import sys
 import cx_Oracle
+import os
+os.environ['PATH'] += ';' + 'C:\\oracle\\instantclient_12_2\\' 
 
 DataSource = sys.argv[1]
 UserId = sys.argv[2]
